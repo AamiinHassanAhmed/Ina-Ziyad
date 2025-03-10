@@ -30,6 +30,36 @@ const blogPosts = [
     },
     readTime: "3m",
   },
+  {
+    image: "/graphic3.jpg",
+    date: "08 Feb, 23",
+    title: "Business Agencies vs Advertising Agencies",
+    author: {
+      name: "Tom Wilson",
+      avatar: "/Adobe Express - file.png",
+    },
+    readTime: "3m",
+  },
+  {
+    image: "/graphic3.jpg",
+    date: "08 Feb, 23",
+    title: "Business Agencies vs Advertising Agencies",
+    author: {
+      name: "Tom Wilson",
+      avatar: "/Adobe Express - file.png",
+    },
+    readTime: "3m",
+  },
+  {
+    image: "/graphic3.jpg",
+    date: "08 Feb, 23",
+    title: "Business Agencies vs Advertising Agencies",
+    author: {
+      name: "Tom Wilson",
+      avatar: "/Adobe Express - file.png",
+    },
+    readTime: "3m",
+  },
 ]
 
 export const BlogSection = () => {
