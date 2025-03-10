@@ -1,7 +1,9 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "../components/utils/Navbar";
-import { Footer } from "../components/utils/Footer";
 import { Hero } from "../pages/ui/Home/Hero";
+import { Home } from "../pages/ui/Home/Home";
+import { About } from "../pages/ui/About/About";
+import { ContactSection } from "../components/utils/Footer";
 
 
 // import UpdateCat from "../dashboard/categories/UpdateDataCat";
@@ -10,7 +12,7 @@ import { Hero } from "../pages/ui/Home/Hero";
 const Routes = () => {
   return (
     <>
-      <div className=" w-full h-[3vh] ">
+      <div className=" w-full h-[3vh] fixed">
         {" "}
         <Navbar />{" "}
       </div>
@@ -20,7 +22,7 @@ const Routes = () => {
       </div>
       <div>
         {" "}
-        <Footer />{" "}
+        <ContactSection />{" "}
       </div>
     </>
   );
@@ -36,8 +38,8 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <Hero />,
-      }
-     
+      },
+    
     ],
   },
 

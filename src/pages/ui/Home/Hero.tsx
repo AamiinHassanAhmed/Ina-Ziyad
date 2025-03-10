@@ -1,23 +1,26 @@
-import React from 'react'
-import { Button } from '../../../components/ui/button'
-import { DownloadIcon } from 'lucide-react'
+import { About } from "../About/About";
+import { BlogSection } from "../components/blog-section";
+import { TestimonialSection } from "../components/testimonial-section";
+import { EducationExperience } from "../skills/education-experience";
+import { Portfolio } from "../skills/portfolio";
+import { SkillsAndServices } from "../skills/skills-services";
+import { Home } from "./Home";
 
 export const Hero = () => {
   return (
-    <div>
-        <div className='flex'>
-            <div className='w-dvh'>
-<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum itaque delectus modi, omnis animi sit?</p>
+    <section className="w-full min-h-screen flex flex-col items-center justify-center mx-auto">
+     <div className="mx-auto"><Home /></div> 
+     <div className="mx-auto"> <About /></div>
+     <div className="mx-auto"> <SkillsAndServices /></div>
+     <div className="mx-auto"> <EducationExperience /></div>
+     <div className="mx-auto w-[75%]"> <Portfolio /></div>
+     <div className="mx-auto w-[90%]"> <TestimonialSection /></div>
+     <div className="mx-auto"> <BlogSection /></div>
 
-<Button className='color-blue-800'>Book a call</Button>
-<Button>Download    CV  <DownloadIcon></DownloadIcon></Button>
+    
 
-            </div>
-            <div>
 
-            </div>
-        </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
+ 

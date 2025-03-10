@@ -122,3 +122,21 @@
     @apply bg-background text-foreground;
   }
 }
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+
+.animate-wave {
+  animation: wave 1.5s infinite;
+  transform-origin: bottom right;
+  display: inline-block;
+}
