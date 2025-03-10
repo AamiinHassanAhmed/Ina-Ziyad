@@ -3,32 +3,30 @@ import { Button } from "../../../components/ui/button"
 
 const blogPosts = [
   {
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/4.jpg",
     date: "08 Feb, 23",
     title: "Determining Marketing Budget Can be Frustrating",
     author: {
       name: "David Miller",
-      avatar: "/placeholder.svg?height=24&width=24",
-    },
+ avatar: "/Adobe Express - file.png",    },
     readTime: "5m",
   },
   {
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/graphic2.jpg",
     date: "08 Feb, 23",
     title: "How to Win The Attention of New Clients: Tips & Tricks",
     author: {
       name: "Sarah Jones",
-      avatar: "/placeholder.svg?height=24&width=24",
-    },
+ avatar: "/Adobe Express - file.png",    },
     readTime: "4m",
   },
   {
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/graphic3.jpg",
     date: "08 Feb, 23",
     title: "Business Agencies vs Advertising Agencies",
     author: {
       name: "Tom Wilson",
-      avatar: "/placeholder.svg?height=24&width=24",
+      avatar: "/Adobe Express - file.png",
     },
     readTime: "3m",
   },
@@ -51,7 +49,7 @@ export const BlogSection = () => {
             <article key={index} className="group">
               <div className="relative h-48 mb-4 overflow-hidden rounded-lg">
                 <img
-                  src={post.image || "/placeholder.svg"}
+                  src={post.image || "/graphic1.jpg"}
                   alt={post.title}
                   className="object-cover transition-transform group-hover:scale-105"
                 />
@@ -62,7 +60,7 @@ export const BlogSection = () => {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <img
-                      src={post.author.avatar || "/placeholder.svg"}
+                      src={post.author.avatar || "/graphic2.jpg"}
                       alt={post.author.name}
                       width={24}
                       height={24}

@@ -65,7 +65,7 @@ export const EducationExperience = () => {
         <div
           className="relative z-10 px-8 py-12 md:py-20 text-center text-white space-y-6"
           style={{
-            backgroundImage: 'url("/placeholder.svg?height=400&width=1200")',
+            backgroundImage: 'url("/graphic1.jpg")',
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

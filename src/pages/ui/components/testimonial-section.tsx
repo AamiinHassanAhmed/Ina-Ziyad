@@ -8,9 +8,9 @@ const testimonials = [
   {
     quote:
       "It was great working with you! I loved starting new projects and seeing how a simple idea can be explored and turned into a real dolor ipsum masterpiece.",
-    author: "Chris Brandon",
+    author: "Ina Ziyad",
     title: "Senior Manager",
-    avatar: "/placeholder.svg?height=60&width=60",
+    avatar: "/Adobe Express - file.png",
   },
   // Add more testimonials here
 ]

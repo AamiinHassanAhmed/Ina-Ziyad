@@ -69,31 +69,37 @@ export const Portfolio = () => {
 };
 
 const filters = [
-  { label: "All", value: "all" },
-  { label: "Web Development", value: "Web Development" },
-  { label: "Web Design", value: "Web Design" },
-  { label: "UI/UX Design", value: "UI/UX Design" },
-];
-
-const projects = [
-  {
-    title: "Mobile App Design",
-    category: "UI/UX Design",
-    image: "/images/mobile-app.jpg", // Make sure these images exist in your public folder
-  },
-  {
-    title: "Minimal Plant Study",
-    category: "Web Design",
-    image: "/images/plant-study.jpg",
-  },
-  {
-    title: "Bestkit Website Development",
-    category: "Web Development",
-    image: "/images/bestkit-website.jpg",
-  },
-  {
-    title: "Workspace Design",
-    category: "Web Design",
-    image: "/images/workspace.jpg",
-  },
-];
+    { label: "All", value: "all" },
+    { label: "Graphic Design", value: "Graphic Design" },
+    { label: "Photography", value: "Photography" },
+    { label: "Branding", value: "Branding" },
+  ];
+  
+  const projects = [
+    {
+      title: "Creative Logo Design",
+      category: "Graphic Design",
+      image: "/graphic1.jpg", // Ensure the image exists
+    },
+    {
+      title: "Portrait Photography",
+      category: "Photography",
+      image: "/5.jpg",
+    },
+    {
+      title: "Social Media Branding",
+      category: "Branding",
+      image: "/4.jpg",
+    },
+    {
+      title: "Nature Photography",
+      category: "Photography",
+      image: "/graphic2.jpg",
+    },
+    {
+        title: "Nature Photography",
+        category: "Photography",
+        image: "/graphic3.jpg",
+      },
+  ];
+  
