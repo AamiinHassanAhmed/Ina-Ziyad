@@ -25,13 +25,13 @@ export const About = () => {
       {/* About Me Section */}
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="relative">
-          <div className="bg-blue-50 rounded-full w-[500px] h-[500px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+          <div className="bg-blue-50 rounded-full w-[700px] h-[700px] absolute top-1/2 left-1/3 -translate-x-1/2 -translate-y-1/2 mr-" />
           <img
             src="/Adobe Express - file.png "
             alt="Profile"
             width={500}
             height={600}
-            className="relative z-10"
+            className="relative top-1/2  "
           />
         </div>
 
