@@ -212,7 +212,7 @@ const services = [
 // Stats for the designer profile
 const stats = [
   { value: "100+", label: "Projects Completed" },
-  { value: "5", label: "Years Experience" },
-  { value: "50k+", label: "Hours Worked" },
+  { value: "3", label: "Years Experience" },
+  { value: "500k+", label: "Hours Worked" },
   { value: "12", label: "Awards Won" },
 ];
