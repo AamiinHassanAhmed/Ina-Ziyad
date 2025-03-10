@@ -12,6 +12,20 @@ const testimonials = [
     title: "Senior Manager",
     avatar: "/Adobe Express - file.png",
   },
+  {
+    quote:
+      "It was great working with you! I loved starting new projects and seeing how a simple idea can be explored and turned into a real dolor ipsum masterpiece.",
+    author: "Ina Ziyad",
+    title: "Senior Manager",
+    avatar: "/Adobe Express - file.png",
+  },
+  {
+    quote:
+      "It was great working with you! I loved starting new projects and seeing how a simple idea can be explored and turned into a real dolor ipsum masterpiece.",
+    author: "Ina Ziyad",
+    title: "Senior Manager",
+    avatar: "/Adobe Express - file.png",
+  },
   // Add more testimonials here
 ]
 
