@@ -82,6 +82,16 @@ const filters = [
       image: "/graphic1.jpg", // Ensure the image exists
     },
     {
+        title: "Creative Logo Design",
+        category: "Graphic Design",
+        image: "/graphic1.jpg", // Ensure the image exists
+      },
+      {
+        title: "Creative Logo Design",
+        category: "Graphic Design",
+        image: "/graphic1.jpg", // Ensure the image exists
+      },
+    {
       title: "Portrait Photography",
       category: "Photography",
       image: "/5.jpg",
