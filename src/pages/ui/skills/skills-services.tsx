@@ -213,6 +213,6 @@ const services = [
 const stats = [
   { value: "99+", label: "Projects Completed" },
   { value: "3", label: "Years Experience" },
-  { value: "500k+", label: "Hours Worked" },
+  { value: "5k+", label: "Hours Worked" },
   { value: "16", label: "Awards Won" },
 ];
