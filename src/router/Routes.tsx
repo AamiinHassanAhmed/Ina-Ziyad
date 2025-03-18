@@ -12,7 +12,7 @@ import { ContactSection } from "../components/utils/Footer";
 const Routes = () => {
   return (
     <>
-      <div className=" w-full h-[3vh] fixed ">
+      <div className=" w-full fixed  z-100 bg-gray-50">
         {" "}
         <Navbar />{" "}
       </div>

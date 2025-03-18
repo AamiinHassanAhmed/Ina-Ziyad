@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <header className="w-full py-4 border-b border-gray-100">
+    <header className="w-full py-4 border-b border-gray-100 ">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -19,28 +19,28 @@ export const Navbar = () => {
           <nav className="hidden md:block">
             <ul className="flex items-center gap-10">
               <li>
-              <a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">
+              <a href="#" className="text-gray-800 hover:text-blue-500 transition-colors font-bold">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#About" className="text-gray-800 hover:text-blue-500 transition-colors">
+                <a href="#About" className="text-gray-800 hover:text-blue-500 transition-colors font-bold">
                   About
                 </a>
               </li>
               <li>
-              <a href="#servicee" className="text-gray-800 hover:text-blue-500 transition-colors">
+              <a href="#servicee" className="text-gray-800 hover:text-blue-500 transition-colors font-bold">
 
                   Services
              </a>
               </li>
               <li>
-                <a href="#PORTFOLIO" className="text-gray-800 hover:text-blue-500 transition-colors">
+                <a href="#PORTFOLIO" className="text-gray-800 hover:text-blue-500 transition-colors font-bold">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#BlogSection" className="text-gray-800 hover:text-blue-500 transition-colors">
+                <a href="#BlogSection" className="text-gray-800 hover:text-blue-500 transition-colors font-bold">
                   Blog
                 </a>
               </li>
