@@ -1,7 +1,7 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "../components/utils/Navbar";
 import { Hero } from "../pages/ui/Home/Hero";
-import { Home } from "../pages/ui/Home/Home";
+
 import { About } from "../pages/ui/About/About";
 import { ContactSection } from "../components/utils/Footer";
 
