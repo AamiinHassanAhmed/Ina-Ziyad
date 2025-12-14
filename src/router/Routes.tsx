@@ -2,7 +2,7 @@ import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "../components/utils/Navbar";
 import { Hero } from "../pages/ui/Home/Hero";
 
-import { About } from "../pages/ui/About/About";
+
 import { ContactSection } from "../components/utils/Footer";
 
 
